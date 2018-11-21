@@ -438,11 +438,11 @@ There are many examples that show how the framework works:
 
 To start an example enter its directory and start it with [cargo-web]:
 
-    $ cargo web start
+   ```  $ cargo web start ```
 
 To run an optimised build instead of a debug build use:
 
-    $ cargo web start --release
+   ``` $ cargo web start --release ```
 
 **Note**: By default, `cargo-web` will use Emscripten to generate asm.js. You can also
 compile to WebAssembly if you add either `--target=wasm32-unknown-emscripten` or
